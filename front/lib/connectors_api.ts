@@ -7,7 +7,7 @@ export type ConnectorsAPIErrorResponse = {
 };
 
 const {
-  CONNECTORS_API = "http://127.0.0.1:3002",
+  CONNECTORS_API = "http://localhost:3002",
   DUST_CONNECTORS_SECRET = "",
 } = process.env;
 

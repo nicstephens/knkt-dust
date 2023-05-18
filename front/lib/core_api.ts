@@ -6,7 +6,7 @@ import { Project } from "@app/types/project";
 import { CredentialsType } from "@app/types/provider";
 import { BlockType, RunConfig, RunRunType, RunStatus } from "@app/types/run";
 
-const { CORE_API = "http://127.0.0.1:3001" } = process.env;
+const { CORE_API = "http://localhost:3001" } = process.env;
 
 export type CoreAPIErrorResponse = {
   message: string;

@@ -5,7 +5,7 @@ import logger from "@app/logger/logger";
 import { DataSourceType } from "@app/types/data_source";
 import { WorkspaceType } from "@app/types/user";
 
-const { DUST_API = "https://dust.tt" } = process.env;
+const { DUST_API = "http://localhost:3001" } = process.env;
 
 export type DustAPIErrorResponse = {
   type: string;

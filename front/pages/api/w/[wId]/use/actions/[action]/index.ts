@@ -17,7 +17,7 @@ export const config = {
   },
 };
 
-const { DUST_API = "https://dust.tt" } = process.env;
+const { DUST_API = "https://localhost:3001" } = process.env;
 
 async function handler(
   req: NextApiRequest,
